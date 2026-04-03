@@ -1,0 +1,242 @@
+/* css/tedx.css — Fixed version */
+:root{
+  --tedx-red: #e62b1e;
+  --tedx-black: #000000;
+  --tedx-white: #ffffff;
+}
+
+body { 
+  font-family: 'Montserrat', sans-serif; 
+  background-color: #000;
+  color: #fff;
+}
+
+/* ---- Navbar ---- */
+.navbar {
+  transition: background-color 0.3s ease;
+  background-color: transparent !important;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.navbar.scrolled {
+  background-color: #fff !important;
+}
+
+.navbar.scrolled .nav-link {
+  color: #000 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* ---- Hero Section (FIXED) ---- */
+.hero-tedx {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  background-image: url('../img/2022/Tedx/tedxlogo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff00;
+}
+
+/* Subtle overlay */
+.hero-tedx::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0);
+  z-index: 1;
+}
+
+.hero-tedx .container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/* HIDE ALL TEXT IN HERO */
+.hero-tedx h1,
+.hero-tedx .lead,
+.hero-tedx p,
+.hero-tedx .tedx-small,
+.hero-tedx .display-3,
+.hero-tedx .fw-bold,
+.hero-tedx .text-red,
+.hero-tedx .hero-ctas,
+.hero-tedx .year-buttons p {
+  display: none !important;
+}
+
+/* Buttons container - ONLY show these */
+.hero-buttons {
+  display: flex !important;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+/* RECTANGULAR buttons (no border radius) */
+.hero-buttons .tedx-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 0 !important; /* Force rectangular */
+  margin: 0;
+}
+
+.hero-buttons .tedx-btn.active {
+  background: #e62b1e !important;
+  border-color: #e62b1e !important;
+  color: white !important;
+}
+
+.hero-buttons .tedx-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+.hero-buttons .tedx-btn.active:hover {
+  background: #bf2618 !important;
+  border-color: #bf2618 !important;
+}
+
+/* Watch button - rectangular */
+.hero-buttons .btn-watch {
+  display: inline-block;
+  background: #e62b1e;
+  color: white;
+  font-weight: 600;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border: 2px solid #e62b1e;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 0 !important; 
+  margin-right: 15px;
+}
+
+.hero-buttons .btn-watch:hover {
+  background: #bf2618;
+  border-color: #bf2618;
+  transform: translateY(-2px);
+  color: white;
+}
+
+
+/* ---- About Section ---- */
+#about {
+  padding-top: 100px;
+  position: relative;
+  color: #fff;
+  background-color: #000;
+  min-height: 800px;
+  display: flex;
+  align-items: left;
+}
+
+#about h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+#about p {
+  font-size: 1.2rem;
+}
+
+.stat-number {
+  font-size: 4.5rem;
+  font-weight: 1000;
+  color: #f7f1f1;
+}
+
+.small {
+  font-size: 2.1rem;
+  color: #ccc;
+}
+
+/* ---- Year pills (for other sections) ---- */
+.year-buttons .tedx-btn {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid var(--tedx-red);
+  color: var(--tedx-red);
+  padding: .45rem .9rem;
+  border-radius: 30px !important; /* Only round in other sections */
+  font-weight: 700;
+  margin: 0 .25rem;
+  text-decoration: none;
+}
+
+.year-buttons .tedx-btn.active,
+.year-buttons .tedx-btn:hover { 
+  background: var(--tedx-red); 
+  color: #fff; 
+  transform: translateY(-2px); 
+}
+
+/* ---- Reels Section ---- */
+#reels {
+  background-color: #000;
+}
+
+.reels-wrapper {
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.reel-item {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #111;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.reel-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  .hero-buttons .btn-watch {
+    margin-right: 0;
+  }
+  
+  .hero-buttons .tedx-btn,
+  .hero-buttons .btn-watch {
+    padding: 10px 25px;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
