@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- to import all the libraries -->
+<?php include 'head.php'; ?>  
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <?php include 'navbar.php'; ?>
+    <!-- Navbar End -->
+
+
+   
+
+<!-- EVENT TIMELINE SECTION -->
+<section id="timeline" class="py-5 bg-dark text-white">
+  <div class="container">
+    <!-- Table of Contents / Year Filter -->
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Our Journey</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+        <a href="#year-2025" class="btn btn-outline-light btn-sm">2025</a>
+        <a href="#year-2024" class="btn btn-outline-light btn-sm">2024</a>
+        <a href="#year-2023" class="btn btn-outline-light btn-sm">2023</a>
+        <a href="#year-2022" class="btn btn-outline-light btn-sm">2022</a>
+        <a href="#year-2021" class="btn btn-outline-light btn-sm">2021</a>
+        <a href="#year-2020" class="btn btn-outline-light btn-sm">2020</a>
+        <a href="#year-2019" class="btn btn-outline-light btn-sm">2019</a>
+        <a href="#year-2018" class="btn btn-outline-light btn-sm">2018</a>
+      </div>
+    </div>
+
+</section>
+
+    <!-- Service Start -->
+     <section id="year-2025">
+    <div class="container-xxl py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h6 class="section-title bg-white text-center text-primary px-3">Activities</h6>
+      <h1 class="mb-4">Our Events & Activities</h1>
+    </div>
+
+    <!-- Activity 1 -->
+     <!-- Event 1 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img\2025\TedX\13.jpg" class="img-fluid rounded shadow" alt="TEDx Bangladesh Agricultural University">
+    </div>
+    <div class="col-md-6">
+      <h3>TEDx Bangladesh Agricultural University</h3>
+        <p class="text-muted">📅 February 22, 2025</p>
+
+        <p class="event-description">
+          A <strong>flagship TEDx event</strong> that brought together <strong>inspiring speakers</strong> and <strong>innovative ideas</strong> at <strong>BAU</strong>.
+        </p>
+
+    </div>
+  </div>
+
+  <!-- Event 2 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2025\Career Crossroad_Path to Success\2.jpg" class="img-fluid rounded shadow" alt="Career Crossroads">
+    </div>
+    <div class="col-md-6">
+        <h3>Career Crossroads: Path to Success</h3>
+        <p class="text-muted">📅 May 24, 2025</p>
+
+        <p class="event-description">
+          BAUCC, in collaboration with <strong>Career Bridge</strong> and <strong>ACE – A Centre for English</strong>, organized a career-focused session titled <strong>“Career Crossroads: Path to Success”</strong>. The program aimed to guide students in exploring <strong>career opportunities</strong> and developing <strong>practical strategies</strong> to achieve their aspirations.<br><br>
+
+          The session was conducted by <strong>Ariful Haque Shoeb</strong>, Instructor at ACE – A Centre for English, and <strong>Raisa Anjum Elma</strong>, Senior Counsellor from Career Bridge. Their <strong>insightful presentations</strong> combined real-world expertise with <strong>actionable advice</strong>, inspiring participants to think bigger and take meaningful steps toward their goals.<br><br>
+
+          As a gesture of gratitude, BAUCC presented <strong>tokens of honor</strong> to the guest speakers, handed over by <strong>Prof. Dr. Md. Shahidur Rahman</strong>, Vice President of BAUCC, recognizing their valuable contribution and partnership.<br><br>
+
+          The event was a great success, reinforcing <strong>BAUCC’s commitment to empowering students</strong> through professional guidance and collaborative initiatives.
+        </p>
+
+    </div>
+  </div>
+
+  <!-- Event 3 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img\2025\YOUTH CONVENTION ON CLIMATE CHANGE AND FOOD CHAIN\1.jpg" class="img-fluid rounded shadow" alt="Youth for Climate & Food Action">
+    </div>
+    <div class="col-md-6">
+        <h3>Youth for Climate & Food Action – Youth Convention on Climate Change & Food Systems</h3>
+        <p class="text-muted">📅 June 28, 2025</p>
+
+        <p class="event-description">
+          BAUCC proudly hosted the <strong>Youth Convention on Climate Change & Food Systems</strong>, organized by the <strong>Ministry of Environment, Forest and Climate Change</strong> and supported by the <strong>Global Alliance for Improved Nutrition (GAIN)</strong>. The convention brought together over <strong>150 students</strong> from <strong>Bangladesh Agricultural University</strong>, <strong>Jatiya Kabi Kazi Nazrul Islam University</strong>, <strong>Ananda Mohan College</strong>, and other leading youth clubs of the <strong>Mymensingh region</strong>.<br><br>
+
+          The program featured a dynamic <strong>panel discussion</strong> and <strong>open Q&A session</strong>, where students engaged directly with <strong>experts from agriculture, food, and environment sectors</strong>. Discussions centered on pressing issues such as <strong>climate change</strong>, <strong>food insecurity</strong>, <strong>sustainable agriculture</strong>, and <strong>career pathways</strong>, allowing young voices to be heard while receiving research-based insights and solutions from distinguished panelists.<br><br>
+
+          The event successfully fostered <strong>collaboration between youth and experts</strong>, empowering students to take informed action toward building <strong>resilient food systems</strong> and <strong>climate-smart futures</strong>. This initiative highlighted <strong>BAUCC’s commitment to youth leadership, sustainability, and future-ready engagement</strong>.
+        </p>
+    </div>
+  </div>
+
+  <!-- Event 4 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2025\Data insights_Workshop On Open Data and ODE\11.jpg" class="img-fluid rounded shadow" alt="Data Insights">
+    </div>
+    <div class="col-md-6">
+     <h3>Data Insights: Open Data & ODE</h3>
+      <p class="text-muted">📅 July 18–20, 2025</p>
+
+      <p class="event-description">
+        BAUCC organized a workshop titled <strong>“Data Insights: Open Data & ODE”</strong> to equip students with essential <strong>data literacy skills</strong> without requiring coding expertise. The program focused on two key areas: building a strong foundation in <strong>open data concepts</strong> such as <strong>FAIR data principles</strong>, <strong>data governance</strong>, and <strong>consistency</strong>, followed by hands-on training with the <strong>Open Data Editor (ODE)</strong> to clean, transform, and prepare datasets for analysis. Participants explored how <strong>open data</strong> can be applied across <strong>agriculture, journalism, business, engineering, and governance</strong>. The workshop successfully enhanced students’ confidence in working with data and concluded with the awarding of <strong>training certificates</strong> to all participants.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Event 5 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/2024/Beyond Boundaries/beyond_boundaries.jpg" class="img-fluid rounded shadow" alt="Beyond Borders">
+    </div>
+    <div class="col-md-6">
+     <h3>Beyond Borders: USA Immigration & Green Card Opportunities for Agriculturists</h3>
+      <p class="text-muted">📅 December 6, 2024</p>
+
+      <p class="event-description">
+        A focused event on <strong>career and immigration opportunities</strong> for <strong>agriculturists</strong> in the <strong>United States</strong>. Participants gained insights into visa processes, green card eligibility, and practical steps to pursue agricultural careers abroad. The session aimed to equip students with actionable knowledge to explore global professional pathways in agriculture.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Event 6 (reverse) -->
+
+  <section id="year-2024">
+  <div class="container-xxl py-5">
+    <div class="container">
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img/moments/2.jpg" class="img-fluid rounded shadow" alt="BYLC Regional Youth Camp">
+    </div>
+    <div class="col-md-6">
+      <h3>BYLC Regional Youth Camp</h3>
+      <p class="text-muted">📅 November 17, 2024</p>
+
+      <p class="event-description">
+        The <strong>BYLC Regional Youth Camp</strong> is an engaging and inspiring platform designed to equip young individuals with <strong>leadership, teamwork, and communication skills</strong> through practical learning. The camp brings together students from diverse academic institutions, creating a collaborative environment where they can grow through shared experiences, group activities, and structured sessions.
+      </p>
+
+      <p class="event-description">
+        As part of its commitment to empowering future changemakers, <strong>Bangladesh Agricultural University Career Club (BAUCC)</strong> partnered with the <strong>Bangladesh Youth Leadership Centre (BYLC)</strong> to create a collaborative platform fostering youth leadership, skill development, and community engagement.
+      </p>
+
+      <p class="event-description">
+        On 17 November 2024, selected students from BAUCC participated in the <strong>Regional Youth Policy Camp</strong>, held at the <strong>BRAC Learning Centre</strong> from 9:00 AM to 6:00 PM. This immersive, full-day program integrated youth voices into the policy-making process while equipping participants with essential leadership and teamwork skills. 
+      </p>
+
+      <p class="event-description">
+        The camp brought together students from various schools, colleges, and universities beyond BAU. Interactive sessions were conducted by three experienced BYLC facilitators, guiding participants through structured activities and discussions. Key highlights included:
+        <ul>
+          <li>Group-based team activities fostering collaboration and creative problem-solving</li>
+          <li>Poster presentations on region-specific policy issues</li>
+          <li>Interactive leadership sessions focusing on civic engagement and youth contribution to national development</li>
+          <li>Opportunities for participants to share perspectives and formulate actionable ideas</li>
+        </ul>
+      </p>
+
+      <p class="event-description">
+        To ensure smooth participation, BAUCC arranged transportation for all registered students. This initiative helped students build leadership competencies and engage in meaningful conversations with peers across the region, broadening horizons and preparing them to be active contributors in shaping the future.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Event 7 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/2024/US embassy/UsEmbassy.jpg" class="img-fluid rounded shadow" alt="U.S. Exchange and Higher Study Opportunities">
+    </div>
+    <div class="col-md-6">
+      <h3>U.S. Exchange and Higher Study Opportunities for Undergraduate Students</h3>
+      <p class="text-muted">📅 November 24, 2024</p>
+
+      <p class="event-description">
+        As part of its ongoing efforts to empower students with <strong>global academic opportunities</strong>, the <strong>Bangladesh Agricultural University Career Club (BAUCC)</strong>, in collaboration with the <strong>U.S. Embassy Dhaka</strong>, organized an enlightening seminar on <strong>U.S. Exchange and Higher Study Opportunities for undergraduate students</strong>. Held on 24 November 2024 at the <strong>Shilpacharya Zainul Abedin Auditorium</strong>, the event aimed to broaden students' horizons regarding <strong>international academic mobility</strong> and <strong>leadership development</strong> through U.S.-funded exchange programs.
+      </p>
+
+      <p class="event-description">
+        The seminar featured three distinguished speakers who brought diverse perspectives and valuable guidance to the session. <strong>Mushfiq Hassan</strong>, Youth Exchange and Alumni Coordinator at the U.S. Embassy Dhaka, introduced a range of exchange programs including <strong>UGRAD, CCI, and SUSI</strong>, emphasizing their life-changing impact. He encouraged students not only to seize these international opportunities but also to return and contribute to Bangladesh using the leadership and skills gained abroad. 
+      </p>
+
+      <p class="event-description">
+        <strong>SM Sazzad Ul Islam</strong>, a U.S. Exchange alumnus and SUSI GSL participant, shared his personal journey and transformative experiences in the program, offering motivation and a firsthand glimpse into the vibrant academic and cultural environment in the U.S. Adding a practical dimension to the session, <strong>Rifat Swapnil</strong>, EducationUSA Advisor, provided actionable advice on applying to U.S. graduate programs, covering essential topics like contacting professors, drafting compelling emails, and writing strong <strong>Statements of Purpose (SOPs)</strong>.
+      </p>
+
+      <p class="event-description">
+        This event served as a powerful platform for students of BAU to gain in-depth knowledge about <strong>study and exchange opportunities in the United States</strong>. It sparked inspiration among attendees and offered practical steps toward applying for competitive programs. We express our heartfelt gratitude to the <strong>U.S. Embassy Dhaka</strong> for their generous support and collaboration in making this event a remarkable success.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Event 8 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2024\Exploring Study Abroad Pathways\2.jpg" class="img-fluid rounded shadow" alt="Exploring Study Abroad Pathways">
+    </div>
+    <div class="col-md-6">
+      <h3>Exploring Study Abroad Pathways</h3>
+        <p class="text-muted">📅 December 6, 2024</p>
+
+        <p class="event-description">
+          The <strong>Bangladesh Agricultural University Career Club (BAUCC)</strong> successfully organized a seminar titled <strong>"Exploring Study Abroad Pathways"</strong>, in collaboration with its official partner and sponsor, <strong>IDP Education</strong>. The event aimed to provide students with essential knowledge and motivation to pursue <strong>higher education abroad</strong>.
+        </p>
+
+        <p class="event-description">
+          The program featured two engaging segments. In the first hour, professionals from <strong>IDP</strong> conducted detailed sessions on <strong>global study opportunities</strong>. <strong>John Stephen Gomes</strong>, Assistant Destination Manager at IDP, highlighted <strong>educational prospects, scholarships, and career scopes in the UK and Ireland</strong>. <strong>Shampa Yasmin</strong>, Branch Manager at IDP Uttara, focused on the <strong>application process and cultural life in Australia and New Zealand</strong>. Additionally, <strong>Nusrat Jahan</strong>, Counselor at IDP (USA), led an insightful session on <strong>university admissions and opportunities in the US and Canada</strong>, guiding students through <strong>application steps, institutional selection, and academic landscape</strong> of North America.
+        </p>
+
+        <p class="event-description">
+          In the second half of the event, a <strong>podcast-style interactive session</strong> was held featuring <strong>Md. Monir Hossain</strong>, Scientific Officer at BARI and awardee of the <strong>Australia Awards Scholarship 2025</strong>, who shared his journey of research and scholarship success, and <strong>Arpan Das</strong>, a BAU alumnus and prospective PhD student at Texas A&M University, who discussed practical aspects of <strong>securing US admission and scholarships</strong>. Through these sessions, students gained in-depth knowledge on <strong>study abroad procedures, scholarship strategies, and cultural experiences</strong> across multiple countries. The event successfully empowered attendees to take the first step toward <strong>international education</strong> and inspired them to <strong>dream beyond borders</strong>.
+        </p>
+
+    </div>
+  </div>
+
+  <!-- Event 9 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img\2024\Beyond Boundaries\beyond_boundaries.jpg" class="img-fluid rounded shadow" alt="Beyond Boundaries">
+    </div>
+    <div class="col-md-6">
+        <h3>Beyond Boundaries: Diverse Career Pathways & Future-Ready Skills</h3>
+        <p class="text-muted">📅 November 15, 2024</p>
+
+        <p class="event-description">
+          <strong>BAUCC</strong> organized a workshop titled <strong>“Beyond Boundaries: Diverse Career Pathways & Future-Ready Skills in Agricultural and Biological Sciences”</strong> to prepare students for <strong>global opportunities</strong> in an ever-changing world. The session introduced participants to international career prospects with organizations such as <strong>UN, FAO, WHO</strong>, and <strong>AstraZeneca’s Global Graduate Program</strong>, while also highlighting <strong>entrepreneurship in biological sciences</strong> and the potential of <strong>interdisciplinary research</strong>.
+        </p>
+
+        <p class="event-description">
+          The workshop’s highlight was an engaging talk by <strong>Yusha Araf</strong>, who shared his firsthand experiences and inspired students to rethink their career choices with broader perspectives. His insights motivated participants to embrace <strong>innovation, adaptability, and ambition</strong> in shaping a <strong>global future</strong>.
+        </p>
+
+        <p class="event-description">
+          The event enriched students’ <strong>knowledge and aspirations</strong>, aligning with <strong>BAUCC’s mission</strong> to equip youth with <strong>future-ready skills</strong> and an <strong>international outlook</strong>.
+        </p>
+
+    </div>
+  </div>
+
+  <!-- Event 10 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2024\2nd National Career Carnival 2024\1.JPG" class="img-fluid rounded shadow" alt="2nd National Career Carnival">
+    </div>
+    <div class="col-md-6">
+      <h3>2nd National Career Carnival 2024</h3>
+        <p class="text-muted">📅 June 7–8, 2024</p>
+
+        <p class="event-description">
+          The <strong>2nd National Career Carnival 2024</strong>, organized by <strong>BAUCC</strong>, marked a milestone in student engagement and career development at BAU. With the participation of <strong>600+ students</strong> and collaboration of <strong>40+ leading companies</strong>, it became one of the most impactful career initiatives in recent years.
+        </p>
+
+        <p class="event-description">
+           <strong>Day 1: Sessions & Seminars</strong><br>
+          Inaugurated by the Honorable Vice-Chancellor, <strong>Professor Dr. Md. Abdul Awal</strong>, the day featured <strong>14 dynamic speaker sessions</strong> on topics such as:
+          <ul>
+            <li>Opportunities in the corporate sector</li>
+            <li>Government jobs and career paths</li>
+            <li>Leadership and personal development</li>
+            <li>Startups and entrepreneurship</li>
+            <li>Research and study abroad opportunities</li>
+            <li>Business strategies for the future</li>
+          </ul>
+          Icebreaker games, lively interactions, and a refreshing lunch kept participants engaged. The day concluded with a closing speech by <strong>Professor Dr. Mohammed Nasir Uddin</strong>, President of BAUCC. Gifts and a magazine were given to all participants, while the first 200 registrants enjoyed special goodies.
+        </p>
+
+        <p class="event-description">
+           <strong>Day 2: National Job Fair</strong><br>
+          The fair was inaugurated again by <strong>Professor Dr. Md. Abdul Awal</strong>. Over <strong>40 renowned companies</strong> joined, providing opportunities for aspiring graduates. Highlights included:
+          <ul>
+            <li>BRAC and Provita conducted on-the-spot walk-in interviews</li>
+            <li>Kazi Farms actively recruited from BAU’s talent pool</li>
+            <li>BAT hosted an exclusive interactive session for fresh graduates</li>
+          </ul>
+          The event fostered professional connections, personal growth, and direct recruitment opportunities.
+        </p>
+
+        <p class="event-description">
+          <strong>Impact & Legacy:</strong> The carnival showcased <strong>BAUCC’s excellence, innovation, and dedication</strong> to student success, surpassing the achievements of the first edition and establishing itself as a flagship BAUCC event. It left students inspired, motivated, and better prepared for their career journeys, reaffirming BAUCC’s motto: “Always Better than Before.”
+        </p>
+
+    </div>
+  </div>
+</div>
+</div>
+</section>
+    <!-- Event 11 -->
+    <section id="year-2023">
+  <div class="container-xxl py-5">
+    <div class="container">
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img\2023\Career Craft 1.0\IMG_4566.JPG" class="img-fluid rounded shadow" alt="Career Craft 1.0">
+    </div>
+    <div class="col-md-6">
+      <h3>Career Craft 1.0</h3>
+        <p class="text-muted">📅 November 23, 2023</p>
+
+        <p class="event-description">
+          Empowering students with essential skills to excel in their academic and professional journey, <strong>BAUCC</strong> launched a training program titled <strong>Career Craft 1.0</strong> with the motto "<strong>Vision to Achieve Success</strong>". These sessions were conducted both online and offline, providing participants the opportunity to interact with resource persons and e-learning institutions for professional skill development. Almost 100 students participated. The program spanned 2 months, culminating in a certification ceremony.
+        </p>
+
+        <p class="event-description">
+          Key sessions included:
+          <ul>
+            <li><strong>Crafting Your Winning CV</strong> – Jain Hasan Omar, Founder and CEO, Seldex Academy</li>
+            <li><strong>Polishing Your Professional Communication</strong> – English Teaching and Training Arena (ETTA)</li>
+            <li><strong>LinkedIn Profile Mastery</strong> – Sabbir Ahmed, Founder, Learning Bangladesh</li>
+            <li><strong>The Art of Excelling in Interviews</strong> – S.M. Ebrahim Ullah, Lead-Talent Management, ACI Godrej Agrovet Pvt. Ltd.</li>
+            <li><strong>Creating Compelling Digital Content</strong> – Youth School of Social Entrepreneurs</li>
+            <li><strong>MS Office Essentials</strong> – Sopnil Ahmed Jahin, Graduate Teaching Assistant, Texas Tech University</li>
+            <li><strong>IELTS and Study Abroad: Rewrite Your Dream</strong> – International Development Programme (IDP)</li>
+            <li><strong>Leadership Practices for Success</strong> – Hasib Al Mamun Sumon, Assistant Manager, Marketing & Communication, BYLC</li>
+            <li><strong>Public Speaking and Presentation Skills</strong> – Dr. Mahmudul Hasan Sikder, Professor, Department of Pharmacology, Bangladesh Agricultural University</li>
+          </ul>
+        </p>
+
+  </div>
+  </div>
+
+  <!-- Event 12 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2023\National Career Carnival 2023\DSC_3228.JPG" class="img-fluid rounded shadow" alt="National Career Carnival 2023">
+    </div>
+    <div class="col-md-6">
+      <h3>National Career Carnival 2023</h3>
+        <p class="text-muted">📅 June 9–10, 2023</p>
+
+        <p class="event-description">
+          To provide a platform for students and graduates to interact with industry professionals and explore career opportunities, <strong>National Career Carnival (NCC) 2023</strong> was organized by <strong>Bangladesh Agricultural University Career Club (BAUCC)</strong> with the theme "<strong>Discover Your Destination</strong>". The two-day program was held on June 9 and 10, 2023.
+        </p>
+
+        <p class="event-description">
+          <strong>DAY 1: SESSIONS & SEMINARS</strong><br>
+          On June 9, Sessions and Seminars were organized at <strong>Shilpacharya Zainul Abedin Auditorium</strong> covering topics including: <strong>Research and Study Abroad, Start-up, Government Job, Corporate Job, and Quality Empowerment</strong>. 
+          Key speakers included <strong>Ayman Sadiq, Ghulam Sumdany Don, Ahsan Mahbub Yeaman, M.M. Ferdous, Sourav Das Gupta Bijoy, Savadul Azhat Sarwar, Professor Md. Kamruzzaman, Ahsan Habib, Rahat Hossain</strong>, among others.
+        </p>
+
+        <p class="event-description">
+          Approximately 1000 participants attended from inside and outside BAU. The event included three interactive game segments and distribution of <strong>goodies, certificates, and lunch</strong> to all attendees.
+        </p>
+
+        <p class="event-description">
+          <strong>DAY 2: JOB FAIR</strong><br>
+          On June 10, the <strong>Job Fair</strong> featured 19 renowned companies including <strong>BAT Bangladesh, Paragon, Bayer, ACI, Lal Teer, Syngenta</strong>, and more. Held in the <strong>BAU Gymnasium</strong>, the fair was open to all students and alumni. Participants interacted with company representatives, explored offerings, submitted CVs, and some companies conducted walk-in interviews. This event successfully connected students, graduates, and employers, marking a milestone for BAUCC.
+        </p>
+
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+  <!-- Event 13 -->
+  <section id="year-2022">
+  <div class="container-xxl py-5">
+    <div class="container">
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img\2022\Tedx\FB_IMG_1756406469473.jpg" class="img-fluid rounded shadow" alt="TEDx BAU 2022">
+    </div>
+    <div class="col-md-6">
+        <h3>TEDx BAU</h3>
+          <p class="text-muted">📅 December 24, 2022</p>
+
+          <p class="event-description">
+            TED, an American-Canadian nonprofit media organization, has a mission to discover and spread ideas that spark conversation, deepen understanding, and drive meaningful change. To diversify ideas, <strong>TEDx</strong> was launched, enabling communities worldwide to organize local TED events. These events are run by passionate volunteers who obtain a license from TED to execute community-relevant events.
+          </p>
+
+          <p class="event-description">
+            Following a few renowned universities, <strong>Bangladesh Agricultural University Career Club (BAUCC)</strong> obtained the license to organize an independent TED event at BAU, namely <strong>TED BAU</strong>. Held on December 24, 2022, themed "<strong>Let's Protect the Future We Choose</strong>", BAUCC successfully conducted this prestigious day-long event at the Bangladesh Agricultural University campus.
+          </p>
+
+          <p class="event-description">
+            Several highly intellectual and professional personalities were invited to share their ideas. Honourable mentions include <strong>Amitabh Reja Chowdhury, Sadman Sadik, Antik Mahmud, Zuhair Ahmed Koushik</strong>, among others. <strong>Dr. Md. Mahmudul Hasan Sikder</strong> shared his talk in Bangla, which was later accepted for the official TEDx platform.
+          </p>
+
+          <p class="event-description">
+            Participants registered with a minimum fee and received light snacks, goodies, lunch, and a well-crafted certificate on the event day. The dedication of BAUCC members made the event a success, providing an excellent opportunity to learn from accomplished individuals and enhancing the skills of the organizing team.
+          </p>
+
+    </div>
+</div>
+
+  <!-- Event 14 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img/moments/14.jpg" class="img-fluid rounded shadow" alt="U.S. Higher Education & Exchange Program">
+    </div>
+    <div class="col-md-6">
+      <h3>U.S. Higher Education and Exchange Program</h3>
+        <p class="text-muted">📅 August 1, 2022</p>
+
+        <p class="event-description">
+          The <strong>U.S. Embassy, Dhaka</strong> team expressed interest in visiting Bangladesh Agricultural University to discuss higher study prospects in the U.S., supported by the <strong>U.S. Department of State</strong>.
+        </p>
+
+        <p class="event-description">
+          Bangladesh Agricultural University Career Club (<strong>BAUCC</strong>), in collaboration with the U.S. Embassy, organized the 
+          "<strong>U.S. Higher Studies Education & Exchange Programs</strong>" session on August 1, 2022, at <strong>Shilpacharya Zainul Abedin Auditorium</strong>.
+        </p>
+
+        <p class="event-description">
+          The event highlighted the growing interest in higher education at BAU, reflected in the active participation of students throughout the program.
+        </p>
+
+    </div>
+  </div>
+
+  <!-- Event 15 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img\2022\BAUCC Carrier Stories_Road to BCS\21th_RBCS.jpg" class="img-fluid rounded shadow" alt="BAUCC Career Stories">
+    </div>
+    <div class="col-md-6">
+      <h3>BAUCC Career Stories - Road to BCS</h3>
+        <p class="text-muted">📅 June 24, 2022</p>
+
+        <p class="event-description">
+          The inclination towards <strong>BCS</strong> is increasing day by day among the students of Bangladesh Agricultural University.
+        </p>
+
+        <p class="event-description">
+          Along with the technical cadre, university students are being appointed for important duties of the general cadre such as administration, police, customs, and excise. They are consistently contributing successfully in all fields of the Government of Bangladesh.
+        </p>
+
+        <p class="event-description">
+          <strong>BAUCC Career Stories</strong>, sponsored by Lojens, was organized on June 24 as part of this initiative. The first episode, <strong>"Road to BCS"</strong>, featured successful BAU alumni currently serving in the Bangladesh Civil Service Cadre.
+        </p>
+
+        <p class="event-description">
+          The purpose of the event was to connect students with BCS cadres and provide guidance for beginners on preparing for BCS examinations. Speakers shared their personal journeys, experiences, morale, and insights, inspiring participants to pursue their goals with clarity and determination.
+        </p>
+
+        <p class="event-description">
+          The ceremony was held at <strong>Shilapacharjo Zainul Abedin Milanayatan</strong> with around 500 students present. A quiz competition was conducted from June 21–23 via the Lojens app, and winners were awarded on June 24.
+        </p>
+
+    </div>
+  </div>
+
+
+    <!-- Event 16 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2022\Blatte of Minds Roadshow\20th _ BOM road Show.jpg" class="img-fluid rounded shadow" alt="Battle of Minds Roadshow">
+    </div>
+    <div class="col-md-6">
+      <h3>Battle of Minds Roadshow</h3>
+      <p class="text-muted">📅 June 16–19, 2022</p>
+          <p class="event-description">
+            <strong>BATTLE OF MIND</strong> is a prestigious platform for young enthusiasts to generate and present their innovative business ideas. It also provides a stepping stone to join multinational companies like British American Tobacco.
+          </p>
+
+          <p class="event-description">
+            As part of BOM, the <strong>Battle of Minds Roadshow</strong> was held on June 19 at Shilpacharya Zainul Abedin Auditorium in collaboration with the Bangladesh Agricultural University Career Club (BAUCC). The event allowed future aspirants to learn detailed steps for building a career at BAT, brainstorm business ideas, and ask questions directly to industry experts.
+          </p>
+
+          <p class="event-description">
+            Winners of the competition received an attractive gift box from British American Tobacco Bangladesh. Alumni working in BAT were also present to share their journey, insights, and experiences with the participants.
+          </p>
+    </div>
+  </div>
+
+  <!-- Event 17 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/moments/17.jpg" class="img-fluid rounded shadow" alt="BYLC CareerX">
+    </div>
+    <div class="col-md-6">
+      <h3>BYLC CareerX</h3>
+      <p class="text-muted">📅 May 8–29, 2022</p>
+          <p class="event-description">
+            The inclination towards <strong>BCS</strong> is increasing day by day among the students of Bangladesh Agricultural University. Along with the technical cadre, university students are being appointed for important duties of the general cadre like administration, police, customs, and excise. They are successfully contributing across various fields in the Government of Bangladesh.
+          </p>
+
+          <p class="event-description">
+            BAUCC Career Stories, sponsored by <strong>Lojens</strong>, was organized on 24th June as part of this initiative. The first episode, <strong>"Road to BCS"</strong>, featured successful BAU alumni currently serving in the Bangladesh Civil Service Cadre. The event aimed to connect students with BCS cadres, provide guidance for beginners, and inspire a competitive spirit by sharing real-life journeys, experiences, and insights on pursuing a career in BCS.
+          </p>
+
+          <p class="event-description">
+            The ceremony took place at Shilapacharjo Zainul Abedin Milanayatan with around <strong>500 students</strong> in attendance. The event included a quiz competition held from June 21–23 via the Lojens app, with winners awarded during the main ceremony.
+          </p>
+    </div>
+  </div>
+
+  <!-- Event 18 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img/moments/18.jpg" class="img-fluid rounded shadow" alt="BRAC ISD: Boosting Career to New Heights">
+    </div>
+    <div class="col-md-6">
+      <h3>BRAC ISD: Boosting Career to New Heights</h3>
+      <p class="text-muted">📅 June 7, 2022</p>
+        <p class="event-description">
+          Bangladesh Agricultural University Career Club arranged a session on online-based career build-up titled <strong>'Click in, Build a Career'</strong>. The workshop was held on 7th June 2022 in collaboration with the <strong>BRAC Institute of Skill Development (ISD)</strong>, an e-learning platform focused on human skill development.
+        </p>
+
+        <p class="event-description">
+          BRAC ISD provides nine exclusive online courses ranging from 3 to 12 weeks, including <strong>Graphics Design, Digital Marketing, Web Design, and Excel</strong>. Participants’ skills are evaluated through assignments and quizzes. The event highlighted career demand jobs, skill development opportunities, and pathways for students to enhance their future work quality. About <strong>100 students</strong> attended this live session.
+        </p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+  <!-- Event 19 -->
+   <section id="year-2021">
+  <div class="container-xxl py-5">
+    <div class="container">
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/moments/19.jpg" class="img-fluid rounded shadow" alt="Virtual Session on Higher Education Abroad">
+    </div>
+    <div class="col-md-6">
+      <h3>Virtual Session on Higher Education Abroad</h3>
+      <p class="text-muted">📅 September 12, 2021</p>
+      <p class="event-description">
+      The second virtual grooming session for newly recruited members of BAUCC focused on <strong>Higher Education Abroad</strong> and was conducted by BAUCC Alumnus <strong>Dewan Abdullah Al Rafi</strong> (Graduate Research Assistant, University of Arizona).
+    </p>
+
+    <p class="event-description">
+      The session provided <strong>valuable guidance</strong> for students aspiring to pursue foreign degrees, covering the full process, eligibility criteria, and strategies to navigate the complexities of studying abroad. Participants received <strong>endless motivation</strong> and practical advice. Two of these grooming sessions are publicly available on YouTube for general student access.
+    </p>
+    </div>
+  </div>
+
+  <!-- Event 20 (reverse) -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2021\TRAILBLAZER 3.0_ Business Plan Competition\FB_IMG_1755805747379.jpg" class="img-fluid rounded shadow" alt="TrailBlazer 3.0">
+    </div>
+    <div class="col-md-6">
+      <h3>TrailBlazer 3.0</h3>
+      <p class="text-muted">📅 January 5, 2021</p>
+        <p class="event-description">
+          Bangladesh Agricultural University Career Club (BAUCC) presented the much-anticipated Intra-University Business Plan Competition, <strong>"TrailBlazer 3.0"</strong>. This third edition of TrailBlazer is BAU's premier business competition where current and future entrepreneurs compete to showcase their <strong>innovative and sustainable business ideas</strong>.
+        </p>
+
+        <p class="event-description">
+          Like previous editions, the competition was open to students from all six faculties of BAU. The event maintained the same three-round structure and marked the <strong>final year of Dutch project sponsorship worth 1000 Euro</strong> for the winners. The timeline spanned from <strong>December 16, 2020, to February 27, 2021</strong>, including five virtual workshops conducted by BAUCC to guide participants.
+        </p>
+    </div>
+  </div>
+  <!-- Event 21 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/moments/21.jpg" class="img-fluid rounded shadow" alt="Session on Marketing & Business Development">
+    </div>
+    <div class="col-md-6">
+      <h3>Session on Marketing & Business Development</h3>
+      <p class="text-muted">📅 January 2, 2021</p>
+        <p class="event-description">
+        With the title <strong>"The Journey with TrailBlazer"</strong>, BAUCC organized a valuable session on <strong>Marketing Strategy and Business Development</strong> for aspiring students.
+      </p>
+
+      <p class="event-description">
+        The session was conducted by <strong>Tajdin Hassan</strong> (Head of Marketing, The Daily Star), who shared his <strong>insights, experiences, and practical lessons</strong> in the field of marketing and business development. His guidance proved highly beneficial for BAU students aiming to enhance their entrepreneurial and professional skills.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+  <!-- Event 22 (reverse) -->
+   <section id="year-2020">
+  <div class="container-xxl py-5">
+    <div class="container">
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img/moments/22.jpg" class="img-fluid rounded shadow" alt="Virtual Session on Public Speaking and Presentation">
+    </div>
+    <div class="col-md-6">
+      <h3>Virtual Session on Public Speaking and Presentation</h3>
+        <p class="text-muted">📅 November 26, 2020</p>
+
+        <p class="event-description">
+          This was the first grooming session for new executive members of BAUCC in 2020.  
+          The session was conducted by BAUCC alumnus <strong>Md. Naimul Islam</strong> (Leaf Officer, British American Tobacco, Bangladesh) focusing on <strong>Public Speaking & Presentation</strong>.  
+          He discussed strategies, methods, and evaluation criteria for effective presentations.
+        </p>
+
+        <p class="event-description">
+          During the public speaking segment, he demonstrated how to research and practice before addressing an audience, maintain <strong>posture and gestures</strong>, dress simply, and use <strong>facial expressions, pronunciation, tone modulation, and pauses</strong> to engage listeners effectively.
+        </p>
+
+        <p class="event-description">
+          The session concluded with a motivational message: <em>"Truth is what you choose to believe."</em>
+        </p>
+
+            </div>
+          </div>
+
+  <!-- Event 23 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/moments/23.jpg" class="img-fluid rounded shadow" alt="Young Professional Smartification (YPS)">
+    </div>
+    <div class="col-md-6">
+      <h3>Young Professional Smartification (YPS) program</h3>
+      <p class="text-muted">📅 May 20–July 20, 2020</p>
+      <p class="event-description">
+        During the COVID-19 pandemic, many young professionals and university students used their time to seek opportunities.  
+        To support career readiness, <strong>Smartifier Academy</strong> initiated the <strong>'Young Professional Smartification (YPS)'</strong> online training program. 
+      </p>
+
+      <p class="event-description">
+        The career-building course covered <strong>27 topics</strong> focusing on <strong>job readiness, office performance, and job excellence</strong>.  
+        The program aimed to help young professionals realize and utilize their capabilities to the fullest.
+      </p>
+
+      <p class="event-description">
+        <strong>BAUCC</strong> collaborated with Smartifier Academy to bring this opportunity to BAU students, preparing them for future careers and increasing their chances of success in competitive job markets.
+      </p>
+      </div>
+  </div>
+  <section id="year-2020">
+
+  <!-- Event 24 (reverse) -->
+   <section id="year-2019">
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2019\Hult Prize BAU\FB_IMG_1757029268285.jpg" class="img-fluid rounded shadow" alt="HULT Prize at BAU">
+    </div>
+    <div class="col-md-6">
+        <h3>HULT Prize at BAU</h3>
+            <p class="text-muted">📅 October 27, 2019</p>
+
+            <p class="event-description">
+              The <strong>Hult Prize</strong> is an annual, year-long competition that crowdsources ideas from university students to solve pressing social issues such as <strong>food security, water access, energy, and education</strong>.
+            </p>
+
+            <p class="event-description">
+              Founded by MBAs from Hult International Business School and funded by <strong>Bertil Hult</strong> and his family (founders of EF Education First), the competition provides <strong>US$1 million in seed capital</strong> to help the winning team launch a social enterprise.
+            </p>
+
+            <p class="event-description">
+              For the very first time, <strong>"HULT PRIZE at BAU"</strong> on-campus round was held by <strong>Bangladesh Agricultural University Career Club (BAUCC)</strong>.  
+              The competition was open to students from Level 01 to Master's Semester 02 across all six faculties at BAU.  
+            </p>
+
+            <p class="event-description">
+              The competition was case-based; each team submitted a business plan based on the case: <em>"Building startups that have a positive impact on our planet with every dollar earned"</em>. Any business idea with no negative impact on the environment was eligible.
+            </p>
+
+            <p class="event-description">
+              The competition structure consisted of three rounds:  
+              <br> <strong>Round 1:</strong> Project Proposal Submission  
+              <br> <strong>Round 2:</strong> Business Plan Submission  
+              <br> <strong>Round 3:</strong> Investor Pitch (Grand Finale)  
+              The event timeline was <strong>20 October – 20 November 2019</strong>.
+            </p>
+
+    </div>
+  </div>
+
+  <!-- Event 25 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img\2019\TRAILBLAZER 2.0_ Business Plan Competition\IMG-20250823-WA0051.jpg" class="img-fluid rounded shadow" alt="TrailBlazer 2.0">
+    </div>
+    <div class="col-md-6">
+      <h3>TrailBlazer 2.0</h3>
+      <p class="text-muted">📅 October 2, 2019</p>
+        <p class="event-description">
+          Following the successful completion of <strong>"TrailBlazer 1.0"</strong> in 2018, BAUCC organized the signature business idea competition of BAU in 2019 titled <strong>"TrailBlazer 2.0"</strong>.
+        </p>
+
+        <p class="event-description">
+          Similar to the first season, the competition consisted of three rounds:  
+          <br> <strong>Round 1:</strong> Project Proposal Submission  
+          <br> <strong>Round 2:</strong> Business Plan Submission  
+          <br> <strong>Round 3:</strong> Investor Pitch (Grand Finale)  
+        </p>
+
+        <p class="event-description">
+          Winners received a <strong>€1000 prize pool</strong>, funded by the Dutch project supporting this initiative.  
+          The event timeline was <strong>23 August 2019 – 20 October 2019</strong>, during which <strong>two workshops</strong> were conducted by BAUCC as part of the program.
+        </p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+    <!-- Event 26 (reverse) -->
+     <section id="year-2018">
+  <div class="container-xxl py-5">
+    <div class="container">
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img\2019\TRAILBLAZER 2.0_ Business Plan Competition\IMG-20250823-WA0051.jpg" class="img-fluid rounded shadow" alt="Active Citizen Youth Leadership Training">
+    </div>
+    <div class="col-md-6">
+      <h3>Active Citizen Youth Leadership Training</h3>
+        <p class="text-muted">📅 October 25–28, 2018</p>
+
+        <p class="event-description">
+          <strong>Active Citizens Youth Leadership Training</strong> by the 
+          <strong>British Council</strong> aims to bring about 
+          <em>sustainable social change</em> within communities by establishing a 
+          global network of leaders.  
+        </p>
+
+        <p class="event-description">
+          The purpose is to <strong>increase the contribution of community leaders</strong> 
+          towards achieving sustainable development both locally and globally. 
+          <strong>BAUCC</strong> brought this opportunity for students of our campus. 
+        </p>
+
+        <p class="event-description">
+          ACYLT works with people who have already demonstrated 
+          <em>local social responsibility</em>, including youth workers, women's groups, 
+          educators, and faith leaders.  
+        </p>
+
+        <p class="event-description">
+          As part of this purpose, a <strong>4-day training program</strong> 
+          (25–28 October 2018) was offered to participants from BAU to 
+          <strong>develop leadership skills</strong> and gain a 
+          <em>global perspective on social development</em>.  
+        </p>
+
+        <p class="event-description">
+          The screening of potential participants and all management 
+          responsibilities were handled by <strong>BAUCC</strong>.
+        </p>
+
+    </div>
+  </div>
+
+  <!-- Event 27 -->
+  <div class="row align-items-center mb-5">
+  <div class="col-md-6">
+    <img src="img\2018\TRAILBLAZER 1.0_ Business Plan Competition\FB_IMG_1755805535410.jpg" class="img-fluid rounded shadow" alt="TrailBlazer 1.0">
+  </div>
+  <div class="col-md-6">
+    <h3 class="event-title">TrailBlazer 1.0</h3>
+    <p class="event-date">📅 October 13, 2018</p>
+    <p class="event-description">
+      Bangladesh Agricultural University Career Club (<strong>BAUCC</strong>) launched its 
+      first-ever <strong>Intra-University Business Idea Competition</strong>, 
+      <strong>"TrailBlazer 1.0"</strong>, on the BAU campus in 2018. The competition was 
+      open to students from all six faculties and was funded by the 
+      <strong>Dutch project "Development of an Entrepreneurial Eco-System at BAU"</strong>.
+    </p>
+    <p class="event-description">
+      The competition was structured in three rounds: <br>
+      <strong>Round 1:</strong> Project Proposal Submission <br>
+      <strong>Round 2:</strong> Business Plan Submission <br>
+      <strong>Round 3:</strong> Investor Pitch (Grand Finale)
+    </p>
+    <p class="event-description">
+      <strong>TrailBlazer 1.0</strong> awarded a total of <strong>€1000</strong> in prizes: 
+      <strong>Champion – €500</strong>, <strong>1st Runner-up – €300</strong>, and 
+      <strong>2nd Runner-up – €200</strong>. 
+      Alongside the competition, <strong>three workshops</strong> were organized to guide 
+      participants throughout the process.
+    </p>
+  </div>
+</div>
+
+  </div>
+  </div>
+</section>
+
+
+    <!-- Service End -->
+
+
+    
+        
+
+    <!-- Footer Start -->
+    <?php include 'footer.php'; ?>
+    <!-- Footer End -->
+
+
+    <!-- JavaScript Libraries -->
+     <?php include 'jslibraries.php'; ?>
+    
+</body>
+
+</html>
