@@ -240,3 +240,186 @@ body {
     text-align: center;
   }
 }
+ /* quick inline fine-tuning */
+    .video-thumb {
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #111;
+    }
+    .video-thumb:hover {
+      transform: scale(1.02);
+      box-shadow: 0 20px 30px rgba(230, 43, 30, 0.2);
+    }
+    .sponsor-logo {
+  /* filter: brightness(0) invert(1); */ /* Comment out or remove this */
+      opacity: 0.9;
+      transition: opacity 0.2s;
+      max-height: 80px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .sponsor-logo:hover {
+      opacity: 1;
+    }
+    #speaker-name {
+      font-family: 'Oswald', sans-serif;
+      color: #e62b1e;
+      font-size: clamp(3rem, 10vw, 8rem);
+      line-height: 1.1;
+      text-transform: uppercase;
+      word-break: break-word;
+    }
+    .big-speaker {
+      max-height: 600px;
+      width: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+    /* reel scroll styling */
+    .reels-wrapper {
+      scrollbar-width: thin;
+      scrollbar-color: #e62b1e #222;
+    }
+    .reels-wrapper::-webkit-scrollbar {
+      height: 8px;
+    }
+    .reels-wrapper::-webkit-scrollbar-thumb {
+      background: #e62b1e;
+      border-radius: 10px;
+    }
+
+    /* Typography */
+    .fw-black { font-weight: 900; }
+    .tracking-wider { letter-spacing: 0.1em; }
+    
+    /* Reel cards */
+    .featured-reel-card, .reel-card, .reel-mini-card {
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      border: 1px solid rgba(230, 43, 30, 0.2);
+      cursor: default;
+    }
+    
+    .featured-reel-card:hover, .reel-card:hover, .reel-mini-card:hover {
+      transform: scale(1.02);
+      border-color: #e62b1e;
+      box-shadow: 0 30px 40px -15px rgba(230, 43, 30, 0.5);
+    }
+    
+    /* Hide all custom play buttons (Facebook iframes have their own) */
+    .play-btn-overlay,
+    .play-mini-btn,
+    .featured-play-btn,
+    .side-play-btn,
+    .scroll-play-btn {
+      display: none !important;
+    }
+    
+    /* Make sure Facebook iframes are clickable */
+    iframe[src*="facebook.com/plugins/video"] {
+      pointer-events: auto !important;
+    }
+    
+    /* Let clicks pass through to the iframe */
+    .ratio {
+      pointer-events: none;
+    }
+    
+    .ratio iframe {
+      pointer-events: auto;
+    }
+    
+    /* Horizontal scroll styling */
+    .reels-horizontal-scroll {
+      scrollbar-width: thin;
+      scrollbar-color: #e62b1e #333;
+      cursor: grab;
+    }
+    
+    .reels-horizontal-scroll::-webkit-scrollbar {
+      height: 8px;
+    }
+    
+    .reels-horizontal-scroll::-webkit-scrollbar-track {
+      background: #222;
+      border-radius: 10px;
+    }
+    
+    .reels-horizontal-scroll::-webkit-scrollbar-thumb {
+      background: #e62b1e;
+      border-radius: 10px;
+    }
+    
+    .reels-horizontal-scroll::-webkit-scrollbar-thumb:hover {
+      background: #ff4d3a;
+    }
+    
+    .reels-horizontal-scroll:active {
+      cursor: grabbing;
+    }
+    
+    /* Video elements (if any) */
+    video {
+      background: #111;
+    }
+    
+    video::-webkit-media-controls-panel {
+      background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    }
+    
+    /* Stats cards */
+    .stats-card {
+      backdrop-filter: blur(5px);
+      transition: all 0.3s;
+    }
+    
+    .stats-card:hover {
+      background-color: rgba(230, 43, 30, 0.1) !important;
+      border-color: #e62b1e !important;
+    }
+    
+    .stats-icon {
+      transition: all 0.3s;
+    }
+    
+    .stats-card:hover .stats-icon {
+      transform: rotate(5deg) scale(1.1);
+    }
+    
+    /* Badges */
+    .badge.bg-danger {
+      background: #e62b1e !important;
+      font-weight: 600;
+    }
+    
+    /* Scroll buttons */
+    .btn-outline-light:hover {
+      background-color: #e62b1e !important;
+      border-color: #e62b1e !important;
+    }
+    
+    .video-thumb {
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(230, 43, 30, 0.2);
+    }
+    
+    .video-thumb:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 30px rgba(230, 43, 30, 0.3);
+      border-color: #e62b1e;
+    }
+    
+    .video-thumb .ratio {
+      overflow: hidden;
+    }
+    
+    .modal-content.bg-transparent {
+      background: transparent !important;
+    }
+    
+    .btn-close-white {
+      filter: invert(1) grayscale(100%) brightness(200%);
+    }
