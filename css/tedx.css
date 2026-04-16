@@ -12,7 +12,6 @@ body {
 }
 
 /* ---- Navbar ---- */
-/* ---- Navbar ---- */
 .navbar {
   transition: background-color 0.3s ease;
   background-color: transparent !important;
@@ -34,111 +33,41 @@ body {
 
 .navbar-brand {
   font-size: 1.5rem;
+
+
 }
-
-/* ---- Navbar Mobile Fix - Add this to tedx.css ---- */
-
-/* Make sure Bootstrap collapse works */
-.navbar-collapse {
-  transition: all 0.3s ease;
-}
-
-/* Mobile view styles */
 @media (max-width: 991.98px) {
-  /* Force dark background on mobile */
-  .navbar {
-    background-color: #0a0a0a !important;
-  }
-  
-  /* Make toggler button visible and clickable */
-  .navbar-toggler {
-    border: none !important;
-    background: transparent !important;
-    z-index: 1050;
-  }
-  
-  .navbar-toggler:focus {
-    box-shadow: none;
-    outline: none;
-  }
-  
-  /* White hamburger icon */
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
-  }
-  
-  /* Collapsible menu styling */
-  .navbar-collapse {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #0a0a0a;
-    padding: 20px;
-    border-radius: 0 0 12px 12px;
-    z-index: 1040;
-    max-height: 80vh;
-    overflow-y: auto;
-  }
-  
-  /* Mobile nav links */
-  .navbar .nav-link {
-    color: #fff !important;
-    margin-left: 0 !important;
-    padding: 12px 15px !important;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  .navbar .nav-link:last-child {
-    border-bottom: none;
-  }
-  
-  /* Mobile dropdown menu */
-  .dropdown-menu {
-    background-color: #1a1a1a !important;
-    border: none !important;
-    margin: 5px 0 !important;
-    padding: 5px 0 !important;
-    position: relative !important;
-    width: 100% !important;
-    transform: none !important;
-    box-shadow: none;
-  }
-  
-  .dropdown-item {
-    color: #fff !important;
-    padding: 10px 20px !important;
-    text-align: center;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #e62b1e !important;
-    color: #fff !important;
-  }
-  
-  /* Dropdown toggle arrow position */
-  .dropdown-toggle::after {
-    float: right;
-    margin-top: 8px;
-  }
-  
-  /* Hide Join Now button on mobile */
-  .btn.btn-primary.d-none.d-lg-block {
-    display: none !important;
-  }
-}
+    .navbar-light .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
 
-/* Small phones */
-@media (max-width: 576px) {
-  .navbar-brand img {
-    width: 40px !important;
-  }
-  
-  .navbar .nav-link {
-    padding: 10px 12px !important;
-    font-size: 14px;
-  }
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
 }
 
 /* ---- Hero Section (FIXED) ---- */
