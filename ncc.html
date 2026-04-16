@@ -157,7 +157,7 @@ let currentImageIndex = 0;
 let visibleCount = 8;
 
 // Fetch images from JSON
-fetch('img/ncc/gallery/gallery.json')
+fetch('img/gallery.json')
   .then(response => response.json())
   .then(data => {
     galleryImages = data.images;
